@@ -26,7 +26,7 @@
   - Review pagination
 ---
 
-## 🗄️ Database Structure
+## Database Structure
 
 - `users` – Stores name, email, password, profile picture, role (admin(1)/user(0))
 - `movies` – Stores title, description, year, actors, genre, approval status
@@ -40,16 +40,10 @@
 
 ## Installation and Setup
 
-
-### 1. Clone the repository using git clone.
-
-### 2. Open the file db_config.php from the project directory. Copy all SQL statements provided in the file. Go to your preferred MySQL interface.
-
-### 3. Create a database named FilmScope. Paste and execute the SQL code from db_config.php to create all necessary tables.
-
-### 4. Find the file config.example.php in the config_bd directory. Rename it to config.php.
-
-### 5. Open the config.php file and replace the placeholder values with your actual database information.
-
-### 6. Give folder "assets/img" full permissions.
+ 1. Clone the repository using git clone.
+ 2. Open the file db_config.php from the project directory. Copy all SQL statements provided in the file. Go to your preferred MySQL interface.
+ 3. Create a database named FilmScope. Paste and execute the SQL code from db_config.php to create all necessary tables.
+ 4. Find the file config.example.php in the config_bd directory. Rename it to config.php.
+ 5. Open the config.php file and replace the placeholder values with your actual database information.
+ 6. Give folder "assets/img" full permissions.
 
